@@ -1,4 +1,5 @@
 #include <iostream>
+#include "sum.h"
 using namespace std;
 
 int main()
@@ -9,7 +10,7 @@ int main()
 
 	int j;
 	j=sum(i);
-	cout << j;
+	cout << j << endl ;
 
 	return 0;
 
